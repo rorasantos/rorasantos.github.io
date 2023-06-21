@@ -11,11 +11,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <!-- Bootstrap Icon -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
-    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Lightbox CSS -->
     <link rel="stylesheet" href="./css/lightbox.min.css" />
     <!-- Main CSS -->
@@ -26,7 +23,7 @@
       <!-- Navigation -->
       <nav class="navbar navbar-expand-lg fixed-top py-4" id="navbar">
         <div class="container">
-          <a class="navbar-brand fw-bold" href="./index.html"
+          <a class="navbar-brand fw-bold" id="home" href="./index.html"
             >Rora Clara Santos</a
           >
           <button
@@ -52,6 +49,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#short-films">Short Films</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#awards">Awards</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#psa">PSA</a>
@@ -181,8 +181,15 @@
         <!-- End of Carousel Header -->
         <!-- Photography Section -->
         <section class="container py-4 mt-5">
-          <h2 class="fw-bold mb-4" id="photography">Photography</h2>
-          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <h2 class="fw-bold mb-4" id="photography" data-aos="fade-up">
+            Photography
+          </h2>
+          <ul
+            class="nav nav-pills mb-3"
+            id="pills-tab"
+            role="tablist"
+            data-aos="fade-up"
+          >
             <li class="nav-item" role="presentation">
               <button
                 class="nav-link active"
@@ -253,17 +260,19 @@
               <!-- 1st row -->
               <div class="row">
                 <!-- Main Column -->
-                <figure class="col-lg-4 p-0 m-0 mb-2">
+                <figure class="col-lg-4 p-0 m-0 mb-2" data-aos="fade-up">
                   <a
                     href="./images/product photography/08D1FD2E-D06A-494A-8322-FEB18CAE06C9.jpg"
                     data-lightbox="product"
                     class="img-container"
+                    loading="lazy"
                   >
                     <img
                       src="./images/product photography/08D1FD2E-D06A-494A-8322-FEB18CAE06C9.jpg"
                       alt=""
                       srcset=""
                       class="image solo-img"
+                      loading="lazy"
                     />
                     <div class="img-overlay">
                       <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -274,34 +283,38 @@
                 <!-- Main Column -->
                 <div class="col-lg-4">
                   <div class="row">
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/product photography/1159B25C-6F65-4607-BBA9-DC31287C1106-557F7FA3-A535-4A47-9B7B-231D3B5F8CA8.jpeg"
                         data-lightbox="product"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/product photography/1159B25C-6F65-4607-BBA9-DC31287C1106-557F7FA3-A535-4A47-9B7B-231D3B5F8CA8.jpeg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
                         </div>
                       </a>
                     </figure>
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/product photography/1D8EB8C1-68E1-47DE-AADC-6752C6345D74.jpg"
                         data-lightbox="product"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/product photography/1D8EB8C1-68E1-47DE-AADC-6752C6345D74.jpg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -314,34 +327,38 @@
                 <!-- Main Column -->
                 <div class="col-lg-4">
                   <div class="row p-0">
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/product photography/2336B3B3-BD5F-4D5D-9340-446624DCE9F7-C468B82B-4798-4888-B264-8EAAEB894F6B.jpg"
                         data-lightbox="product"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/product photography/2336B3B3-BD5F-4D5D-9340-446624DCE9F7-C468B82B-4798-4888-B264-8EAAEB894F6B.jpg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
                         </div>
                       </a>
                     </figure>
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/product photography/2B82B665-A68B-48DF-98F4-97EFCECB3F3E-C5A3F495-1EE3-4F5F-9785-CF31C9881E3B.jpg"
                         data-lightbox="product"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/product photography/2B82B665-A68B-48DF-98F4-97EFCECB3F3E-C5A3F495-1EE3-4F5F-9785-CF31C9881E3B.jpg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -357,51 +374,57 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="row">
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/product photography/77FB8B16-88AC-4D8A-98C6-A20F13928C00-92D16754-81CB-4C0C-B299-66BD50424A09.jpg"
                         data-lightbox="product"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/product photography/77FB8B16-88AC-4D8A-98C6-A20F13928C00-92D16754-81CB-4C0C-B299-66BD50424A09.jpg"
                           alt=""
                           srcset=""
                           class="image landscape-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
                         </div>
                       </a>
                     </figure>
-                    <figure class="col-lg-6 p-0 mb-2">
+                    <figure class="col-lg-6 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/product photography/9ADB86EF-FBCC-4AEB-8CD6-224D88E6F0FB-69F22329-160F-46CA-BF62-BC7DB7A67137 (1).jpg"
                         data-lightbox="product"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/product photography/9ADB86EF-FBCC-4AEB-8CD6-224D88E6F0FB-69F22329-160F-46CA-BF62-BC7DB7A67137 (1).jpg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
                         </div>
                       </a>
                     </figure>
-                    <figure class="col-lg-6 p-0 mb-2">
+                    <figure class="col-lg-6 p-0 mb-2" data-aos="fade-up">
                       <a
-                        href="./images/product photography/casio.png"
+                        href="./images/product photography/IMG_8573.jpg"
                         data-lightbox="product"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
-                          src="./images/product photography/casio.png"
+                          src="./images/product photography/IMG_8573.jpg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -410,17 +433,19 @@
                     </figure>
                   </div>
                 </div>
-                <figure class="col-lg-4 p-0 m-0">
+                <figure class="col-lg-4 p-0 m-0" data-aos="fade-up">
                   <a
-                    href="./images/product photography/IMG_0187.JPG"
+                    href="./images/product photography/IMG_0187.jpg"
                     data-lightbox="product"
                     class="img-container"
+                    loading="lazy"
                   >
                     <img
-                      src="./images/product photography/IMG_0187.JPG"
+                      src="./images/product photography/IMG_0187.jpg"
                       alt=""
                       srcset=""
                       class="image solo-img"
+                      loading="lazy"
                     />
                     <div class="img-overlay">
                       <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -443,51 +468,57 @@
               <div class="row">
                 <div class="col-lg-8">
                   <div class="row">
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/film photography/000037.jpeg"
                         data-lightbox="film"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/film photography/000037.jpeg"
                           alt=""
                           srcset=""
                           class="image landscape-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
                         </div>
                       </a>
                     </figure>
-                    <figure class="col-lg-6 p-0 mb-2">
+                    <figure class="col-lg-6 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/film photography/000044.jpeg"
                         data-lightbox="film"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/film photography/000044.jpeg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
                         </div>
                       </a>
                     </figure>
-                    <figure class="col-lg-6 p-0 mb-2">
+                    <figure class="col-lg-6 p-0 mb-2" data-aos="fade-up">
                       <a
-                        href="./images/film photography/000099490012.jpeg"
+                        href="./images/film photography/2x.jpeg"
                         data-lightbox="film"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
-                          src="./images/film photography/000099490012.jpeg"
+                          src="./images/film photography/2x.jpeg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -496,17 +527,19 @@
                     </figure>
                   </div>
                 </div>
-                <figure class="col-lg-4 p-0 m-0">
+                <figure class="col-lg-4 p-0 m-0" data-aos="fade-up">
                   <a
-                    href="./images/film photography/000099490023.jpeg"
+                    href="./images/film photography/2x 1.jpeg"
                     data-lightbox="film"
                     class="img-container"
+                    loading="lazy"
                   >
                     <img
-                      src="./images/film photography/000099490023.jpeg"
+                      src="./images/film photography/2x 1.jpeg"
                       alt=""
                       srcset=""
                       class="image solo-img"
+                      loading="lazy"
                     />
                     <div class="img-overlay">
                       <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -528,17 +561,19 @@
               <!-- 1st row -->
               <div class="row">
                 <!-- Main Column -->
-                <figure class="col-lg-4 p-0 m-0 mb-2">
+                <figure class="col-lg-4 p-0 m-0 mb-2" data-aos="fade-up">
                   <a
                     href="./images/short film bts/03E30480-B102-4E98-8EBD-8DEAA51785D4.jpg"
                     data-lightbox="short film"
                     class="img-container"
+                    loading="lazy"
                   >
                     <img
                       src="./images/short film bts/03E30480-B102-4E98-8EBD-8DEAA51785D4.jpg"
                       alt=""
                       srcset=""
                       class="image solo-img"
+                      loading="lazy"
                     />
                     <div class="img-overlay">
                       <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -549,34 +584,38 @@
                 <!-- Main Column -->
                 <div class="col-lg-4">
                   <div class="row">
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/short film bts/8ECA56FB-208E-4567-B7D8-9A19731A3FBF.jpg"
                         data-lightbox="short film"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/short film bts/8ECA56FB-208E-4567-B7D8-9A19731A3FBF.jpg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
                         </div>
                       </a>
                     </figure>
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
-                        href="./images/short film bts/9829F769-36E2-4546-9915-5907923E90EF.jpg"
+                        href="./images/short film bts/BDIZ2758.JPG"
                         data-lightbox="short film"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
-                          src="./images/short film bts/9829F769-36E2-4546-9915-5907923E90EF.jpg"
+                          src="./images/short film bts/BDIZ2758.JPG"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -589,34 +628,38 @@
                 <!-- Main Column -->
                 <div class="col-lg-4">
                   <div class="row p-0">
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/short film bts/EFB76FF3-AC33-49D8-ABD6-BD4B14397EE7.jpg"
                         data-lightbox="short film"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/short film bts/EFB76FF3-AC33-49D8-ABD6-BD4B14397EE7.jpg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
                         </div>
                       </a>
                     </figure>
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/short film bts/FBCDD7BB-BE8F-47A4-95B6-67E2738F62CE.jpg"
                         data-lightbox="short film"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/short film bts/FBCDD7BB-BE8F-47A4-95B6-67E2738F62CE.jpg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -630,34 +673,38 @@
               <!-- End of 1st row -->
               <!-- 2nd row -->
               <div class="row">
-                <figure class="col-lg-4 p-0 mb-2">
+                <figure class="col-lg-4 p-0 mb-2" data-aos="fade-up">
                   <a
                     href="./images/short film bts/IMG_8133.JPG"
                     data-lightbox="short film"
                     class="img-container"
+                    loading="lazy"
                   >
                     <img
                       src="./images/short film bts/IMG_8133.JPG"
                       alt=""
                       srcset=""
                       class="image squared-img"
+                      loading="lazy"
                     />
                     <div class="img-overlay">
                       <i class="bi bi-zoom-in fs-1 text-dark"></i>
                     </div>
                   </a>
                 </figure>
-                <figure class="col-lg-8 p-0 m-0">
+                <figure class="col-lg-8 p-0 m-0" data-aos="fade-up">
                   <a
                     href="./images/short film bts/IMG_8589.JPG"
                     data-lightbox="short film"
                     class="img-container"
+                    loading="lazy"
                   >
                     <img
                       src="./images/short film bts/IMG_8589.JPG"
                       alt=""
                       srcset=""
                       class="image landscape-img"
+                      loading="lazy"
                     />
                     <div class="img-overlay">
                       <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -666,6 +713,274 @@
                 </figure>
               </div>
               <!-- End of 2nd row -->
+              <!-- 3rd row -->
+              <div class="row">
+                <!-- Main Column -->
+                <figure class="col-lg-4 p-0 m-0 mb-2" data-aos="fade-up">
+                  <a
+                    href="./images/short film bts/XGDL4335.JPG"
+                    data-lightbox="short film"
+                    class="img-container"
+                    loading="lazy"
+                  >
+                    <img
+                      src="./images/short film bts/XGDL4335.JPG"
+                      alt=""
+                      srcset=""
+                      class="image solo-img"
+                      loading="lazy"
+                    />
+                    <div class="img-overlay">
+                      <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- End of Main Column -->
+                <!-- Main Column -->
+                <div class="col-lg-4">
+                  <div class="row">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
+                      <a
+                        href="./images/short film bts/WSTS0208.JPG"
+                        data-lightbox="short film"
+                        class="img-container"
+                        loading="lazy"
+                      >
+                        <img
+                          src="./images/short film bts/WSTS0208.JPG"
+                          alt=""
+                          srcset=""
+                          class="image squared-img"
+                          loading="lazy"
+                        />
+                        <div class="img-overlay">
+                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
+                      <a
+                        href="./images/short film bts/WCML4313.JPG"
+                        data-lightbox="short film"
+                        class="img-container"
+                        loading="lazy"
+                      >
+                        <img
+                          src="./images/short film bts/WCML4313.JPG"
+                          alt=""
+                          srcset=""
+                          class="image squared-img"
+                          loading="lazy"
+                        />
+                        <div class="img-overlay">
+                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+                <!-- End of Main Column -->
+                <!-- Main Column -->
+                <div class="col-lg-4">
+                  <div class="row p-0">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
+                      <a
+                        href="./images/short film bts/VKZH4295.JPG"
+                        data-lightbox="short film"
+                        class="img-container"
+                        loading="lazy"
+                      >
+                        <img
+                          src="./images/short film bts/VKZH4295.JPG"
+                          alt=""
+                          srcset=""
+                          class="image squared-img"
+                          loading="lazy"
+                        />
+                        <div class="img-overlay">
+                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
+                      <a
+                        href="./images/short film bts/THSU7153.JPG"
+                        data-lightbox="short film"
+                        class="img-container"
+                        loading="lazy"
+                      >
+                        <img
+                          src="./images/short film bts/THSU7153.JPG"
+                          alt=""
+                          srcset=""
+                          class="image squared-img"
+                          loading="lazy"
+                        />
+                        <div class="img-overlay">
+                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+                <!-- End of Main Column -->
+              </div>
+              <!-- End of 3rd row -->
+              <!-- 4th row -->
+              <div class="row">
+                <figure class="col-lg-4 p-0 mb-2" data-aos="fade-up">
+                  <a
+                    href="./images/short film bts/RYZG5213.JPG"
+                    data-lightbox="short film"
+                    class="img-container"
+                    loading="lazy"
+                  >
+                    <img
+                      src="./images/short film bts/RYZG5213.JPG"
+                      alt=""
+                      srcset=""
+                      class="image squared-img"
+                      loading="lazy"
+                    />
+                    <div class="img-overlay">
+                      <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                    </div>
+                  </a>
+                </figure>
+                <figure class="col-lg-8 p-0 m-0" data-aos="fade-up">
+                  <a
+                    href="./images/short film bts/PFIX0288.JPG"
+                    data-lightbox="short film"
+                    class="img-container"
+                    loading="lazy"
+                  >
+                    <img
+                      src="./images/short film bts/PFIX0288.JPG"
+                      alt=""
+                      srcset=""
+                      class="image landscape-img"
+                      loading="lazy"
+                    />
+                    <div class="img-overlay">
+                      <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                    </div>
+                  </a>
+                </figure>
+              </div>
+              <!-- End of 4th row -->
+              <!-- 5th row -->
+              <div class="row">
+                <!-- Main Column -->
+                <figure class="col-lg-4 p-0 m-0 mb-2" data-aos="fade-up">
+                  <a
+                    href="./images/short film bts/OLRE9742.JPG"
+                    data-lightbox="short film"
+                    class="img-container"
+                    loading="lazy"
+                  >
+                    <img
+                      src="./images/short film bts/OLRE9742.JPG"
+                      alt=""
+                      srcset=""
+                      class="image solo-img"
+                      loading="lazy"
+                    />
+                    <div class="img-overlay">
+                      <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                    </div>
+                  </a>
+                </figure>
+                <!-- End of Main Column -->
+                <!-- Main Column -->
+                <div class="col-lg-4">
+                  <div class="row">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
+                      <a
+                        href="./images/short film bts/OFVA6150.JPG"
+                        data-lightbox="short film"
+                        class="img-container"
+                        loading="lazy"
+                      >
+                        <img
+                          src="./images/short film bts/OFVA6150.JPG"
+                          alt=""
+                          srcset=""
+                          class="image squared-img"
+                          loading="lazy"
+                        />
+                        <div class="img-overlay">
+                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
+                      <a
+                        href="./images/short film bts/NKSQ5184.JPG"
+                        data-lightbox="short film"
+                        class="img-container"
+                        loading="lazy"
+                      >
+                        <img
+                          src="./images/short film bts/NKSQ5184.JPG"
+                          alt=""
+                          srcset=""
+                          class="image squared-img"
+                          loading="lazy"
+                        />
+                        <div class="img-overlay">
+                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+                <!-- End of Main Column -->
+                <!-- Main Column -->
+                <div class="col-lg-4">
+                  <div class="row p-0">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
+                      <a
+                        href="./images/short film bts/JIXO9151.JPG"
+                        data-lightbox="short film"
+                        class="img-container"
+                        loading="lazy"
+                      >
+                        <img
+                          src="./images/short film bts/JIXO9151.JPG"
+                          alt=""
+                          srcset=""
+                          class="image squared-img"
+                          loading="lazy"
+                        />
+                        <div class="img-overlay">
+                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                        </div>
+                      </a>
+                    </figure>
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
+                      <a
+                        href="./images/short film bts/CKSV2689.JPG"
+                        data-lightbox="short film"
+                        class="img-container"
+                        loading="lazy"
+                      >
+                        <img
+                          src="./images/short film bts/CKSV2689.JPG"
+                          alt=""
+                          srcset=""
+                          class="image squared-img"
+                          loading="lazy"
+                        />
+                        <div class="img-overlay">
+                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
+                        </div>
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+                <!-- End of Main Column -->
+              </div>
+              <!-- End of 5th row -->
             </div>
             <!-- End of Short Film Tab -->
             <!-- Others Tab -->
@@ -679,17 +994,19 @@
               <!-- 1st row -->
               <div class="row">
                 <!-- Main Column -->
-                <figure class="col-lg-4 p-0 m-0 mb-2">
+                <figure class="col-lg-4 p-0 m-0 mb-2" data-aos="fade-up">
                   <a
                     href="./images/others/119992A7-D5E4-471D-9F06-275152659A6A-1760F4C8-570C-4D7F-9F4D-C93E40370238.jpg"
                     data-lightbox="others"
                     class="img-container"
+                    loading="lazy"
                   >
                     <img
                       src="./images/others/119992A7-D5E4-471D-9F06-275152659A6A-1760F4C8-570C-4D7F-9F4D-C93E40370238.jpg"
                       alt=""
                       srcset=""
                       class="image solo-img"
+                      loading="lazy"
                     />
                     <div class="img-overlay">
                       <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -700,34 +1017,38 @@
                 <!-- Main Column -->
                 <div class="col-lg-4">
                   <div class="row">
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
-                        href="./images/others/3.png"
+                        href="./images/others/94E84408-B432-4344-AF8B-97FD45A41581.jpg"
                         data-lightbox="others"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
-                          src="./images/others/3.png"
+                          src="./images/others/94E84408-B432-4344-AF8B-97FD45A41581.jpg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
                         </div>
                       </a>
                     </figure>
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
-                        href="./images/others/4.png"
+                        href="./images/others/IMG_8581.jpg"
                         data-lightbox="others"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
-                          src="./images/others/4.png"
+                          src="./images/others/IMG_8581.jpg"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -740,34 +1061,38 @@
                 <!-- Main Column -->
                 <div class="col-lg-4">
                   <div class="row p-0">
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
-                        href="./images/others/4231F728-D6DD-41D5-8EEC-FD1E8913B4A2.jpg"
+                        href="./images/others/9.png"
                         data-lightbox="others"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
-                          src="./images/others/4231F728-D6DD-41D5-8EEC-FD1E8913B4A2.jpg"
+                          src="./images/others/9.png"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
                         </div>
                       </a>
                     </figure>
-                    <figure class="col-lg-12 p-0 mb-2">
+                    <figure class="col-lg-12 p-0 mb-2" data-aos="fade-up">
                       <a
                         href="./images/others/5.png"
                         data-lightbox="others"
                         class="img-container"
+                        loading="lazy"
                       >
                         <img
                           src="./images/others/5.png"
                           alt=""
                           srcset=""
                           class="image squared-img"
+                          loading="lazy"
                         />
                         <div class="img-overlay">
                           <i class="bi bi-zoom-in fs-1 text-dark"></i>
@@ -779,82 +1104,6 @@
                 <!-- End of Main Column -->
               </div>
               <!-- End of 1st row -->
-              <!-- 2nd row -->
-              <div class="row">
-                <div class="col-lg-8">
-                  <div class="row">
-                    <figure class="col-lg-12 p-0 mb-2">
-                      <a
-                        href="./images/others/6.png"
-                        data-lightbox="others"
-                        class="img-container"
-                      >
-                        <img
-                          src="./images/others/6.png"
-                          alt=""
-                          srcset=""
-                          class="image landscape-img"
-                        />
-                        <div class="img-overlay">
-                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
-                        </div>
-                      </a>
-                    </figure>
-                    <figure class="col-lg-6 p-0 mb-2">
-                      <a
-                        href="./images/others/8.png"
-                        data-lightbox="others"
-                        class="img-container"
-                      >
-                        <img
-                          src="./images/others/8.png"
-                          alt=""
-                          srcset=""
-                          class="image squared-img"
-                        />
-                        <div class="img-overlay">
-                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
-                        </div>
-                      </a>
-                    </figure>
-                    <figure class="col-lg-6 p-0 mb-2">
-                      <a
-                        href="./images/others/9.png"
-                        data-lightbox="others"
-                        class="img-container"
-                      >
-                        <img
-                          src="./images/others/9.png"
-                          alt=""
-                          srcset=""
-                          class="image squared-img"
-                        />
-                        <div class="img-overlay">
-                          <i class="bi bi-zoom-in fs-1 text-dark"></i>
-                        </div>
-                      </a>
-                    </figure>
-                  </div>
-                </div>
-                <figure class="col-lg-4 p-0 m-0">
-                  <a
-                    href="./images/others/94E84408-B432-4344-AF8B-97FD45A41581.jpg"
-                    data-lightbox="others"
-                    class="img-container"
-                  >
-                    <img
-                      src="./images/others/94E84408-B432-4344-AF8B-97FD45A41581.jpg"
-                      alt=""
-                      srcset=""
-                      class="image solo-img"
-                    />
-                    <div class="img-overlay">
-                      <i class="bi bi-zoom-in fs-1 text-dark"></i>
-                    </div>
-                  </a>
-                </figure>
-              </div>
-              <!-- End of 2nd row -->
             </div>
             <!-- End of Others Tab -->
           </div>
@@ -864,12 +1113,13 @@
         <section class="py-5 container">
           <h2 class="fw-bold mb-4" id="short-films">Short Films</h2>
           <div class="row">
-            <figure class="col-lg-4">
+            <figure class="col-lg-4" data-aos="fade-up">
               <div class="card">
                 <iframe
                   class="w-100"
                   height="300"
                   src="https://www.youtube.com/embed/oNttpbAGelI"
+                  loading="lazy"
                 >
                 </iframe>
                 <div class="card-body">
@@ -877,12 +1127,13 @@
                 </div>
               </div>
             </figure>
-            <figure class="col-lg-4">
+            <figure class="col-lg-4" data-aos="fade-up">
               <div class="card">
                 <iframe
                   class="w-100"
                   height="300"
                   src="https://www.youtube.com/embed/0jZcnRDVnas"
+                  loading="lazy"
                 >
                 </iframe>
                 <div class="card-body">
@@ -892,12 +1143,13 @@
                 </div>
               </div>
             </figure>
-            <figure class="col-lg-4">
+            <figure class="col-lg-4" data-aos="fade-up">
               <div class="card">
                 <iframe
                   class="w-100"
                   height="300"
                   src="https://www.youtube.com/embed/Kj851PWU5qo"
+                  loading="lazy"
                 >
                 </iframe>
 
@@ -908,12 +1160,13 @@
             </figure>
             <div class="row">
               <div class="col-lg-2"></div>
-              <figure class="col-lg-4">
+              <figure class="col-lg-4" data-aos="fade-up">
                 <div class="card">
                   <iframe
                     class="w-100"
                     height="300"
                     src="https://www.youtube.com/embed/3nU8FrNtIh0"
+                    loading="lazy"
                   >
                   </iframe>
 
@@ -922,12 +1175,13 @@
                   </div>
                 </div>
               </figure>
-              <figure class="col-lg-4">
+              <figure class="col-lg-4" data-aos="fade-up">
                 <div class="card">
                   <iframe
                     class="w-100"
                     height="300"
                     src="https://www.youtube.com/embed/Ac3a1-Tckz0"
+                    loading="lazy"
                   >
                   </iframe>
 
@@ -943,12 +1197,70 @@
           </div>
         </section>
         <!-- End of Short Films -->
+        <section class="py-5 container">
+          <h2 class="fw-bold mb-4" id="awards" data-aos="fade-up">
+            Featured Film
+          </h2>
+          <!-- Start of Row -->
+          <div class="row align-items-center">
+            <div class="col-lg-3 order-2 order-lg-1">
+              <figure data-aos="fade-up">
+                <img
+                  src="./images/awards/png finalist.png"
+                  alt=""
+                  class="awards-img d-block mx-auto border object-fit-scale"
+                />
+              </figure>
+              <figure data-aos="fade-up">
+                <img
+                  src="./images/awards/png best film.png"
+                  alt=""
+                  class="awards-img d-block mx-auto border object-fit-scale"
+                />
+              </figure>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up">
+              <img
+                src="./images/FILM_POSTER.png"
+                alt=""
+                class="img-fluid d-block mx-auto object-fit-scale mb-4"
+              />
+            </div>
+            <div class="col-lg-3 order-3 order-lg-3">
+              <figure data-aos="fade-up">
+                <img
+                  src="./images/awards/png tam awards.png"
+                  alt=""
+                  class="awards-img d-block mx-auto border object-fit-scale"
+                />
+              </figure>
+
+              <figure data-aos="fade-up">
+                <img
+                  src="./images/awards/PNG BEST DIR.png"
+                  alt=""
+                  class="awards-img d-block mx-auto border object-fit-scale"
+                />
+              </figure>
+            </div>
+          </div>
+          <figure data-aos="fade-up">
+            <img
+              src="./images/awards/png prod des.png"
+              alt=""
+              class="awards-img d-block mx-auto border object-fit-scale"
+            />
+          </figure>
+          <!-- End of Row -->
+        </section>
         <!-- Start of PSA -->
         <section class="py-5 container">
-          <h2 class="fw-bold mb-4" id="psa">Public Service Announcements</h2>
+          <h2 class="fw-bold mb-4" id="psa" data-aos="fade-up">
+            Public Service Announcements
+          </h2>
           <div class="row">
-            <figure class="col-lg-6">
-              <div class="card">
+            <figure class="col-lg-6" data-aos="fade-up">
+              <div class="card h-100">
                 <audio class="mx-auto mt-4" controls>
                   <source
                     src="./images/audio/Love Yourself.mp3"
@@ -961,8 +1273,8 @@
                 </div>
               </div>
             </figure>
-            <figure class="col-lg-6">
-              <div class="card">
+            <figure class="col-lg-6" data-aos="fade-up">
+              <div class="card h-100">
                 <audio class="mx-auto mt-4" controls>
                   <source
                     src="./images/audio/PALAYa (Final).mp3"
@@ -972,6 +1284,7 @@
                 </audio>
                 <div class="card-body">
                   <h5 class="card-title fw-bold text-center">PALAYa</h5>
+                  <p class="text-center">11th ARAW Values Awards Finalist</p>
                 </div>
               </div>
             </figure>
@@ -979,21 +1292,24 @@
         </section>
         <!-- End of PSA -->
         <!-- Start of About -->
-        <section id="about">
+        <section id="about" data-aos="fade-up">
           <div class="row gutter-0">
             <div class="col-lg-6 bg-dark text-white m-0 p-0">
               <div
-                class="p-5 h-100 d-flex flex-column align-item-center justify-content-center"
+                class="p-5 mx-auto w-75 h-100 d-flex flex-column align-item-center justify-content-center"
               >
                 <h2 class="text-uppercase">about</h2>
                 <p>
-                  Hello, my name is Rora and I am a motivated and enthusiastic
-                  film student at Far Eastern University-Manila, set to graduate
-                  soon. My areas of focus are film production and photography,
-                  and I have sharpened my abilities over time through practical
-                  experience and a strong educational background. My passion for
-                  film and photography started early on and I have continually
-                  been refining my skills since.
+                  Hey there, I'm Rora! I'm in my final year of studying for a
+                  Bachelor of Arts in Communication at Far Eastern University,
+                  specializing in Digital Cinema. Throughout my four-year
+                  journey, I've had the opportunity to work on various projects
+                  and get involved in organizations. These experiences have
+                  helped me shape my skills in production management, art
+                  direction, photography, video productioAn, and marketing.
+                  Let's connect and explore how we can create captivating visual
+                  experiences together. Reach out to me and let's bring stories
+                  to life!
                 </p>
               </div>
             </div>
@@ -1016,6 +1332,8 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Lightbox JS -->
     <script src="./js/lightbox-plus-jquery.min.js"></script>
     <!-- Main JS -->
