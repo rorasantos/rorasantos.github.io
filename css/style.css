@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 body {
   font-family: "Poppins", sans-serif;
@@ -106,4 +107,9 @@ body {
     height: 20em;
     margin: auto;
   }
+}
+
+.awards-img {
+  height: 15rem;
+  width: 18rem;
 }
